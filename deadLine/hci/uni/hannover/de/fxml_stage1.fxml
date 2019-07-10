@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hci.uni.hannover.de.Controller">
+   <children>
+   
+	<ImageView fitHeight="1080.0" fitWidth="1920.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+           <Image url="@textures/background/background1.png" />
+        </image>
+    </ImageView>
+	
+
+
+	  <Button fx:id="S1" layoutX="618.0" layoutY="412.0" mnemonicParsing="false" onAction="#selectCard" prefHeight="250.0" prefWidth="160.0" style="-fx-background-color: transparent;">
+		<graphic>
+            <ImageView fx:id="Stack1image" fitHeight="250.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@textures/cards/hintergrund.png" />
+               </image>
+            </ImageView>
+         </graphic>
+	</Button>
+	  <Button fx:id="S2" layoutX="788.0" layoutY="412.0" mnemonicParsing="false" onAction="#selectCard" prefHeight="250.0" prefWidth="160.0" style="-fx-background-color: transparent;">
+		<graphic>
+            <ImageView fx:id="Stack2image" fitHeight="250.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@textures/cards/hintergrund.png" />
+               </image>
+            </ImageView>
+         </graphic>
+	</Button>
+	  <Button fx:id="S3" layoutX="958.0" layoutY="412.0" mnemonicParsing="false" onAction="#selectCard" prefHeight="250.0" prefWidth="160.0" style="-fx-background-color: transparent;">
+		<graphic>
+            <ImageView fx:id="Stack3image" fitHeight="250.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@textures/cards/hintergrund.png" />
+               </image>
+            </ImageView>
+         </graphic>
+	</Button>
+	  
+	  
+	  <Button fx:id="H1" layoutX="702.0" layoutY="817.0" mnemonicParsing="false" onAction="#selectCard" prefHeight="250.0" prefWidth="160.0" style="-fx-background-color: transparent;">
+		<graphic>
+            <ImageView fx:id="Hand1image" fitHeight="250.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@textures/cards/hintergrund.png" />
+               </image>
+            </ImageView>
+         </graphic>
+	</Button>
+	  <Button fx:id="H2" layoutX="872.0" layoutY="817.0" mnemonicParsing="false" onAction="#selectCard" prefHeight="250.0" prefWidth="160.0" style="-fx-background-color: transparent;">
+		<graphic>
+            <ImageView fx:id="Hand2image" fitHeight="250.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@textures/cards/hintergrund.png" />
+               </image>
+            </ImageView>
+         </graphic>
+	</Button>
+	  <Button fx:id="H3" layoutX="1042.0" layoutY="817.0" mnemonicParsing="false" onAction="#selectCard" prefHeight="250.0" prefWidth="160.0" style="-fx-background-color: transparent;">
+		<graphic>
+            <ImageView fx:id="Hand3image" fitHeight="250.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@textures/cards/hintergrund.png" />
+               </image>
+            </ImageView>
+         </graphic>
+	</Button>
+	  
+	  
+	  <Button fx:id="klopfen" layoutX="591.0" layoutY="836.0" mnemonicParsing="false" onAction="#Knock" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;">
+		<graphic>
+            <ImageView fx:id="klopfenimage" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@textures/others/buttonKlopfen.png" />
+               </image>
+            </ImageView>
+         </graphic>
+	</Button>
+	  <Button fx:id="ende" layoutX="591.0" layoutY="953.0" mnemonicParsing="false" onAction="#End" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;">
+		<graphic>
+            <ImageView fx:id="endeimage" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@textures/others/buttonEnde.png" />
+               </image>
+            </ImageView>
+         </graphic>
+	</Button>
+	
+	</Button>
+	  <Button fx:id="tauschen" layoutX="1000.0" layoutY="800.0" mnemonicParsing="false" onAction="#changeAll" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;">
+		<graphic>
+            <ImageView fx:id="tauscheimage" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@textures/others/buttonEnde.png" />
+               </image>
+            </ImageView>
+         </graphic>
+	</Button>
+
+
+
+    <ImageView fitHeight="250.0" fitWidth="160.0" layoutX="710.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="250.0" fitWidth="160.0" layoutX="880.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+	<ImageView fitHeight="250.0" fitWidth="160.0" layoutX="1050.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+	
+	
+    <ImageView fitHeight="250.0" fitWidth="160.0" layoutX="53.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+	<ImageView fitHeight="250.0" fitWidth="160.0" layoutX="53.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+	<ImageView fitHeight="250.0" fitWidth="160.0" layoutX="53.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+	
+	
+	<ImageView fitHeight="250.0" fitWidth="160.0" layoutX="1706.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+	<ImageView fitHeight="250.0" fitWidth="160.0" layoutX="1706.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+	<ImageView fitHeight="250.0" fitWidth="160.0" layoutX="1706.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+	
+	
+	<ImageView fitHeight="250.0" fitWidth="160.0" layoutX="1147.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+	<ImageView fitHeight="250.0" fitWidth="160.0" layoutX="1149.0" layoutY="414.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>
+	<ImageView fitHeight="250.0" fitWidth="160.0" layoutX="1151.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@textures/cards/hintergrund.png" />
+        </image>
+    </ImageView>  
+	  
+	
+	<ImageView fitHeight="48.0" fitWidth="48.0" layoutX="22.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@textures/others/unknownTexture.png" />
+        </image>
+    </ImageView>
+	<ImageView fitHeight="48.0" fitWidth="48.0" layoutX="1228.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@textures/others/unknownTexture.png" />
+        </image>
+    </ImageView>
+	<ImageView fitHeight="48.0" fitWidth="48.0" layoutX="1684.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@textures/others/unknownTexture.png" />
+        </image>
+    </ImageView>
+	<ImageView fitHeight="48.0" fitWidth="48.0" layoutX="333.0" layoutY="887.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@textures/others/unknownTexture.png" />
+        </image>
+    </ImageView>
+	
+	<Label fx:id="Spieler1" alignment="CENTER" layoutX="392.0" layoutY="887.0" prefHeight="50.0" prefWidth="155.0" text="Spieler 1">
+		<font>
+			<Font name="Rockwell Bold" size="18.0" />
+		</font>
+	</Label>
+	<Label fx:id="Spieler2" alignment="CENTER" layoutX="81.0" layoutY="147.0" prefHeight="50.0" prefWidth="155.0" text="Spieler 2">
+		<font>
+			<Font name="Rockwell Bold" size="18.0" />
+		</font>
+	</Label>
+	<Label fx:id="Spieler3" alignment="CENTER" layoutX="1287.0" layoutY="22.0" prefHeight="50.0" prefWidth="155.0" text="Spieler 3">
+		<font>
+			<Font name="Rockwell Bold" size="18.0" />
+		</font>
+	</Label>
+	<Label fx:id="Spieler4" alignment="CENTER" layoutX="1743.0" layoutY="150.0" prefHeight="50.0" prefWidth="155.0" text="Spieler 4">
+		<font>
+			<Font name="Rockwell Bold" size="18.0" />
+		</font>
+	</Label>
+	
+	<TextField fx:id="Chatbox" layoutX="1250.0" layoutY="1041.0" prefHeight="37.0" prefWidth="668.0" promptText="Schreiben" style="-fx-background-color: transparent;"/>
+	
+	
+	</children>
+</Pane>

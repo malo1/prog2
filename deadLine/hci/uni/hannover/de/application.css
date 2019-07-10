@@ -1,0 +1,39 @@
+#S1:hover {
+  -fx-background-image: url("textures/others/Hover.png");
+}
+
+#S2:hover {
+  -fx-background-image: url("textures/others/Hover.png");
+}
+
+#S3:hover {
+  -fx-background-image: url("textures/others/Hover.png");
+}
+
+#H1:hover {
+  -fx-background-image: url("textures/others/Hover.png");
+}
+
+#H2:hover {
+  -fx-background-image: url("textures/others/Hover.png");
+}
+
+#H3:hover {
+  -fx-background-image: url("textures/others/Hover.png");
+}
+
+#klopfen:hover {
+  -fx-background-image: url("textures/others/Hover.png");
+}
+
+#ende:hover {
+  -fx-background-image: url("textures/others/Hover.png");
+}
+
+#select1:hover {
+  -fx-background-image: url("textures/others/Hover.png");
+}
+
+#select2:hover {
+  -fx-background-image: url("textures/others/Hover.png");
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hci.uni.hannover.de.Controller">
+   <children>
+	
+		<TextField fx:id="name" layoutX="250.0" layoutY="140.0" promptText="Name" onAction="#setName"/>
+		<TextField fx:id="IPAdresse" layoutX="250.0" layoutY="180.0" promptText="IP-Adresse" onAction="#setIPAddress"/>
+	  
+		<Button fx:id="menu_join" layoutX="270.0" layoutY="230.0" mnemonicParsing="false" text="Join" onAction="#Join"/>
+		<Button fx:id="menu_host" layoutX="330.0" layoutY="230.0" mnemonicParsing="false" text="Host" onAction="#Host"/>
+		<Button fx:id="menu_start" layoutX="5000.0" layoutY="5000.0" mnemonicParsing="false" text="Start" onAction="#Start"/>
+	  
+      <Label alignment="CENTER" layoutX="170.0" layoutY="80.0" prefHeight="50.0" prefWidth="300.0" text="SCHWIMMEN">
+         <font>
+            <Font name="Rockwell Extra Bold" size="32.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.638095238095238" endY="0.9380952380952381">
+               <stops>
+                  <Stop color="#2200ff" />
+                  <Stop color="#0097ff" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="169.0" layoutY="81.0" prefHeight="50.0" prefWidth="300.0" text="SCHWIMMEN">
+         <font>
+            <Font name="Rockwell Extra Bold" size="32.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.638095238095238" endY="0.9380952380952381">
+               <stops>
+                  <Stop color="#2200ff" />
+                  <Stop color="#0097ff" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="168.0" layoutY="82.0" prefHeight="50.0" prefWidth="300.0" text="SCHWIMMEN">
+         <font>
+            <Font name="Rockwell Extra Bold" size="32.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.638095238095238" endY="0.9380952380952381">
+               <stops>
+                  <Stop color="#2200ff" />
+                  <Stop color="#0097ff" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   
+   </children>
+</AnchorPane>
